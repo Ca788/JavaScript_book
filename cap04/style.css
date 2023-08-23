@@ -1,0 +1,61 @@
+/* Define a fonte padrão */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Define um fundo cinza claro */
+body {
+  background-color: #315f65;
+}
+
+/* Define o estilo da imagem */
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Define o estilo do cabeçalho principal */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* Define o estilo do formulário */
+  form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Define o estilo do campo de entrada de número */
+input[type="number"] {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Define o estilo do botão de envio */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Define o estilo do resultado do número par / ímpar */
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
