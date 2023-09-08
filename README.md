@@ -1,8 +1,7 @@
 # Lógica de programação e algoritmos com JavaScript.
 
-## Aprendendo Lógica de Programação e Algoritmos com JavaScript 🚀
 
-Tópicos:
+## Tópicos:
 
  Estabelecimento dos fundamentos da Lógica de Programação.
  
