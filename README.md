@@ -9,7 +9,7 @@
  
  Integração poderosa do JavaScript com Páginas HTML.
  
- Diferença entre var, let e consta. 
+ Diferenças entre var, let e const. 
  
  Utilização eficaz de Estruturas Condicionais e de Repetição.
  
