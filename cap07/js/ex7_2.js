@@ -8,7 +8,7 @@ frm.addEventListener("submit", (e) => {
   let resposta = "";
 
   for (const letra of fruta) {
-    if (letra === fruta.charAt(0)) {
+    if (letra == fruta.charAt(0)) {
       resposta += fruta.charAt(0);
     } else {
       resposta += "_";
