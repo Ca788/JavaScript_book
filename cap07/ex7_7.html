@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programa calculo ano e nascimento</title>
+</head>
+
+<body>
+  <script>
+    const anoAtual = new Date().getFullYear();
+    const idade = prompt(`Quantos anos você comemora em ${anoAtual}?`)
+    const anoNasci = anoAtual - idade
+    alert(`Ah.. Então você nasceu em ${anoNasci}`)
+  </script>
+
+</body>
+
+</html>
+
+<!-- Já para calcular a diferença de dias entre duas datas, é necessário entender uma importante particularidade de 
+linguagem JavaScript em relação ao objetos Date: as datas JavaScript são armezenadas internamente com um valor númerico
+. Assim, uma data também pode ser criada ou calculada a partir de um número expresso em milissegundos, a contar do dia 1 de 
+Janeiro de 1970.
+
+Desa forma, se quisermos obter a diferença de dias entre duas datas, podemos subtrair as datas e dividir o valor por 86400000, 
+que é o número de milissegundos de um dia: 24horas * 60minutos *60 Segundos * 1000 milissegundos -->
