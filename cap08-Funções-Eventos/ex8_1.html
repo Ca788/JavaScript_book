@@ -1,0 +1,34 @@
+<!--EXEMPLO DE FUNÇÃO COM PASSAGEM DE PARÂMETRO-->
+<script>
+  /*
+  Exemplo 01
+  const situacao = (nota, media) => {
+    if (nota >= media) {
+      alert("Aprovado")
+    } else {
+      alert("Reprovado")
+    }
+  }
+
+  const prova1 = Number(prompt("Qual a nota: "));
+
+  situacao(prova1, 7)
+ */
+
+  const situacao = (nota, media) => {
+    const resultado = nota >= media ? alert("Aprovado") : alert("Reprovado")
+    return resultado
+  }
+  const prova1 = Number(prompt("Qual a nota: "));
+  const aluno1 = situacao(prova1, 7)
+
+</script>
+
+
+<!-- Exemplo 01 - A função situacao() recebeu dois parâmetros nota e media. O programa inicia
+pela leitura da nota do aluno. Em seguida, é realizada uma chamada da função. 
+O conteudo da variavel prova1 e 7 são então passadados para a função. Nela, esses
+valores são atribuidos para nota e média.-->
+
+<!--(nota, media) são chamadas de parâmetros já os valores reais desses parâmetros 
+    (O valor da prova1 e o valor 7) são chamados de argumentos da função.-->
