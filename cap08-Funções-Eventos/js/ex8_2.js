@@ -17,7 +17,7 @@ frm.addEventListener("submit", (e) => {
   resp3.innerText = `+10x de ${parcela.toFixed(2)}`;
 });
 
-// Função rececbe ano do veiculo como parâmetro
+// Função recebe ano do veiculo como parâmetro
 const classificarVeiculo = (ano) => {
   const anoAtual = new Date().getFullYear();
   let classif;

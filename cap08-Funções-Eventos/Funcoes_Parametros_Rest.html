@@ -1,0 +1,25 @@
+<!--REST(...)Utilizado para unir um conjuto de elementos em um vetor. 
+  Ele pode ser utilizado nas funções para receber um conjuto de parâmetros,
+  que são convertidos para um vetor. Exemplo.. -->
+<script>
+  const calcularMedia = (...notas) => {
+    const num = notas.length;
+    if (num == 0) {
+      console.log("Informe, no minimo, uma nota");
+      return
+    }
+    let soma = 0 //Vai acumular a soma das notas
+    for (const nota of notas) {
+      soma += nota // Soma o valor dos argumentos
+    }
+    const media = soma / num
+    console.log(`Média: ${media.toFixed(2)}`)
+  }
+
+  //Exemplos de chamada de calcularMedia() com n° de parâmetros diferentes
+  calcularMedia(6, 7, 8) //Média: 7.0
+  calcularMedia(2, 10) //Média: 6.0
+  calcularMedia(7.5, 10, 8, 9.5) //Média: 8.8
+  calcularMedia() //Informe no mínimo, uma nota.
+
+</script>
