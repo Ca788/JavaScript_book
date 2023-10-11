@@ -1,0 +1,31 @@
+<!--Funçoes anônimas permitem definir a programação de um bloco de código
+sem atribuir um nome para a função.-->
+
+<script>
+  /*
+  const mostraHora = () => {
+    const data = new Date()
+    const hora = data.getHours()
+    const min = data.getMinutes()
+    const seg = data.getSeconds()
+    console.log(`Atenção para o horário: ${hora}:${min}:${seg}`)
+  }
+  setInterval(mostraHora, 5000) // Tempo para exibição da mensagem a cada 5 segundos.
+  */
+
+  /*Podemos construir esse mesmo script, utilizando uma função anônima, da seguinte forma.*/
+
+  setInterval(() => {
+    const data = new Date()
+    const hora = data.getHours()
+    const min = data.getMinutes()
+    const seg = data.getSeconds()
+    console.log(`Atenção para o horário: ${hora}:${min}:${seg}`)
+  }, 5000);
+
+</script>
+
+<!--Ainda há vários outros recursos sobre funções que podem ser explorados. É possivel
+fazer uma função retornar um conjuto de valores a partir do uso de vetores, passar objetos
+por referência, ou seja, que alteram o conteúdo dos parâmetros em memória refletindo-os no restante
+do programa, criar um função dentro de outra função ou, então fazer um função chamar a si mesma (RECURSIVIDADE).-->
