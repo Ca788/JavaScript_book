@@ -1,5 +1,7 @@
 # Lógica de programação e algoritmos com JavaScript.
 
+[![Descrição da imagem](https://tse4.mm.bing.net/th?id=OIP.tNXjpHRy0KayYG3QZcsPkwHaEK&pid=Api&P=0&h=180)]
+
 
 ## Tópicos:
 
