@@ -1,6 +1,6 @@
 # Lógica de programação e algoritmos com JavaScript.
 
-[![Descrição da imagem]([[https://tse4.mm.bing.net/th?id=OIP.tNXjpHRy0KayYG3QZcsPkwHaEK&pid=Api&P=0&h=180](https://http2.mlstatic.com/D_NQ_NP_997336-MLB49762441426_042022-O.webp)](https://http2.mlstatic.com/D_NQ_NP_997336-MLB49762441426_042022-O.webp))]
+[![Descrição da imagem](https://http2.mlstatic.com/D_NQ_NP_997336-MLB49762441426_042022-O.webp)](URL_DE_DESTINO)
 
 
 ## Tópicos:
