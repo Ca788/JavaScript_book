@@ -79,3 +79,31 @@ function pesquisar() {
     console.log(`Obs.: Não há vinhos cadastrados do tipo "${tipo}"`);
   }
 }
+
+function calcularMedia() {
+  titulo("===< Média e Destaques do cadastro de vinhos >===");
+
+  const num = vinhos.length; //Obtém o número de elementos do vetor
+  if (num == 0) {
+    console.log(`Obs.: não há vinhos cadastrados`);
+    return;
+  }
+
+  let total = 0; //Para acumular total
+  for (const vinho of vinhos) {
+    total += vinho.preco;
+  }
+
+  const media = total / num; //Calcula o preço médio.
+
+  const vinhos2 = [...vinhos]; //Cria uma cópia do vetor original
+
+  vinhos2.sort((a, b) => a.preco - b.preco); // Ordena por preço
+
+  const menor = vinhos2[0]; // Menor preço é o primeiro (posição 0)
+  const maior = vinhos2[num - 1]; // Maior preço é o último (posição num-1)
+
+  console.log(`Preço médio dos vinhos R$: ${media.toFixed(2)}`);
+  console.log(`Menor Valor R$: ${menor.preco.toFixed(2)} - ${menor.marca}`);
+  console.log(`Maior Valor R$: ${maior.preco.toFixed(2)} - ${maior.marca}`);
+}
