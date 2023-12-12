@@ -1,5 +1,7 @@
 # Lógica de programação e algoritmos com JavaScript.
 
+[![Descrição da imagem](https://http2.mlstatic.com/D_NQ_NP_997336-MLB49762441426_042022-O.webp)](URL_DE_DESTINO)
+
 
 ## Tópicos:
 
